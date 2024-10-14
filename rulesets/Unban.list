@@ -2,7 +2,7 @@
 
 # google 广告控制台
 DOMAIN-SUFFIX,ads.google.com
-DOMAIN,tpc.googlesyndication.com
+DOMAIN-SUFFIX,tpc.googlesyndication.com
 DOMAIN,analytics.google.com
 DOMAIN,apps.admob.com
 DOMAIN,firebase.google.com
