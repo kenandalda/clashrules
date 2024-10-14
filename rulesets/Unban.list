@@ -1,0 +1,9 @@
+# Unban 白名单 不应该被广告链接的网站
+
+# google 广告控制台
+DOMAIN,ads.google.com
+DOMAIN,analytics.google.com
+DOMAIN,apps.admob.com
+DOMAIN,appstoreconnect.apple.com
+DOMAIN,chat.openai.com
+DOMAIN,firebase.google.com
