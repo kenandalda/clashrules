@@ -1,0 +1,5 @@
+# Torrents 域名带torrents关键字的似乎会被香港节点封禁，要单独设置
+
+DOMAIN-SUFFIX,appstorrent.org
+DOMAIN-SUFFIX,appstorrent.ru
+DOMAIN-SUFFIX,qbittorrent.org
