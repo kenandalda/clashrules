@@ -29,3 +29,5 @@ DOMAIN-SUFFIX,claude.ai
 # NotebookLM 专属域名
 DOMAIN,notebooklm.google.com,PROXY
 DOMAIN-SUFFIX,notebooklm.google,PROXY
+# Gemini
+DOMAIN,gemini.google.com,PROXY
