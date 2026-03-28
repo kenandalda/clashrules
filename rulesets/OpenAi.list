@@ -31,4 +31,4 @@ DOMAIN,notebooklm.google.com
 DOMAIN-SUFFIX,notebooklm.google
 # Gemini
 DOMAIN,gemini.google.com
-DOMAIN-KEYWORD,openai
+DOMAIN-KEYWORD,gemini
