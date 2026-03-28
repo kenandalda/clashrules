@@ -27,7 +27,8 @@ DOMAIN,cdn.usefathom.com
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
 # NotebookLM 专属域名
-DOMAIN,notebooklm.google.com,PROXY
-DOMAIN-SUFFIX,notebooklm.google,PROXY
+DOMAIN,notebooklm.google.com
+DOMAIN-SUFFIX,notebooklm.google
 # Gemini
-DOMAIN,gemini.google.com,PROXY
+DOMAIN,gemini.google.com
+DOMAIN-KEYWORD,openai
