@@ -5,32 +5,31 @@ proxy-groups:
       - 🇺🇲 美国节点
       - DIRECT
 
-  - name: 🇺🇲 美国节点
-    type: select
-    use:
-      - 你的订阅名称  # 替换为你的订阅名称
-
   - name: 💬 OpenAi
     type: select
     proxies:
+      - 🚀 节点选择
       - 🇺🇲 美国节点
       - DIRECT
 
   - name:: 📲 电报消息
     type: select
     proxies:
+      - 🚀 节点选择
       - 🇺🇲 美国节点
       - DIRECT
 
   - name: 📹 油管视频
     type: select
     proxies:
+      - 🚀 节点选择
       - 🇺🇲 美国节点
       - DIRECT
 
   - name: 🌍 国外媒体
     type: select
     proxies:
+      - 🚀 节点选择
       - 🇺🇲 美国节点
       - DIRECT
 
@@ -38,47 +37,61 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
+      - 🚀 节点选择
       - 🇺🇲 美国节点
 
   - name: Ⓜ️ 微软Bing
     type: select
     proxies:
       - DIRECT
+      - 🚀 节点选择
       - 🇺🇲 美国节点
 
   - name: 🍎 苹果服务
     type: select
     proxies:
       - DIRECT
+      - 🚀 节点选择
       - 🇺🇲 美国节点
 
   - name: 🎮 游戏平台
     type: select
     proxies:
       - DIRECT
+      - 🚀 节点选择
       - 🇺🇲 美国节点
 
   - name: 📺 哔哩哔哩
     type: select
     proxies:
       - DIRECT
+      - 🚀 节点选择
 
   - name: 🎯 全球直连
     type: select
     proxies:
       - DIRECT
+      - 🚀 节点选择
       - 🇺🇲 美国节点
 
   - name: 🛑 广告拦截
     type: select
     proxies:
       - REJECT
+      - 🚀 节点选择
+      - DIRECT
 
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - 🇺🇲 美国节点
       - DIRECT
+  - name: 🇺🇲 美国节点
+    include-all: true
+    filter: (?i)美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States
+    type: url-test
+    interval: 300
+    tolerance: 50
 
 rule-providers:
   # 保留必要的规则提供者
