@@ -471,7 +471,7 @@ rule-providers:
   ChinaDomainPlus:
     url: https://raw.githubusercontent.com/kenandalda/clashrules/refs/heads/main/rulesets/ChinaDomainPlus.list
     path: ./ruleset/ChinaDomainPlus.list
-    behavior: domain
+    behavior: classical
     interval: 86400
     format: text
     type: http
