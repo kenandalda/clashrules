@@ -32,5 +32,7 @@ DOMAIN-SUFFIX,notebooklm.google
 # Gemini
 DOMAIN,gemini.google.com
 DOMAIN-KEYWORD,gemini
+DOMAIN,play.google.com
+DOMAIN-SUFFIX,clients6.google.com
 # OpenCode
 DOMAIN-SUFFIX,opencode.ai
