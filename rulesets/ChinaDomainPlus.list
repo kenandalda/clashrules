@@ -1,4 +1,8 @@
 # ChinaDomain Plus by CZ
+# 1panel
 DOMAIN-KEYWORD,1panel
 DOMAIN-SUFFIX,1panel.live
 DOMAIN,docker.1panel.live
+# akshare 数据源
+DOMAIN-SUFFIX,eastmoney.com
+DOMAIN-SUFFIX,jin10.com
