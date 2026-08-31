@@ -6,3 +6,5 @@ DOMAIN,docker.1panel.live
 # akshare 数据源
 DOMAIN-SUFFIX,eastmoney.com
 DOMAIN-SUFFIX,jin10.com
+# 自有域名
+DOMAIN-SUFFIX,kenandalda.com
